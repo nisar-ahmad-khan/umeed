@@ -14,12 +14,12 @@
 
 <form action="<?php $_SERVER['PHP_SELF']?>" method="post">
   <div class="mb-3" >
-    <label for="exampleInputEmail1" class="form-label">username:</label>
-    <input type="text" class="form-control" name="username">
+    <label for="username" class="form-label">username:</label>
+    <input type="text" class="form-control" name="username" placeholder="Username">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password:</label>
-    <input type="password" name="password">
+    <label for="Password" class="form-label">Password:</label>
+    <input type="password" name="password" placeholder="Enter your password">
   </div>
   
   <input type="submit" class="btn btn-primary" value="Login" name="login">
@@ -52,7 +52,7 @@ $password = $_POST['password'];
 // }
 
 if(isset($_POST['signup'])){
-    error_reporting(0); // Turns off all error reporting//
+    error_reporting(0); 
 ini_set('display_errors', 0);
 
     header('location:signup.php');
