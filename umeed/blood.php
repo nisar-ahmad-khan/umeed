@@ -185,23 +185,7 @@ if(!empty($name) && !empty($phone) && !empty($blood)){
             echo $row['name'];
         }
     }
-
-    
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
 }
 
 
