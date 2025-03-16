@@ -126,7 +126,7 @@
 
 <?php
 
-                 echo"Welcome ". $_SERVER['username'];
+                 
 
 
 session_start();
@@ -145,7 +145,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if(isset($_POST['logout'])){
         header('location:login.php');
 
-        //session_destroy();
+        session_destroy();
     }
 
 }
