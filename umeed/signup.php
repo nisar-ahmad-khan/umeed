@@ -52,14 +52,7 @@ password:<br>
 
 // if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
-// error_reporting(0); // Turns off all error reporting
-// ini_set('display_errors', 0);
 
-
-
-
-// error_reporting(0);
-// ini_set('display_errors',0);
 
 error_reporting(0);
 ini_set('display_errors',0);
@@ -112,15 +105,6 @@ $result1 = mysqli_query($conn,$sql1);
 
         }
 
-
-
-    // }
-
-
-    
-
-
-// }
 
 
 
