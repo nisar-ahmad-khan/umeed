@@ -128,11 +128,11 @@ include "connection.php";
             <li></li>
             <li>Farhan Ahmad - Blood Group: B-</li>
             <li>Waqar Ahmad - Blood Group: O+</li>
-            <!-- Add more donors dynamically -->
+            <!-- ...-->
         </ul>
     </div>
 Nisar Ahmad - Blood Group: A+
-    <!-- Registration Form -->
+    <!-- ... -->
     <div class="form-container">
         <h2>Register as a Blood Donor</h2>
         <form action="<?php htmlspecialchars($_SERVER['PHP_SELF'])  ?>" method="post">
