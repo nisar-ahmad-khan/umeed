@@ -188,7 +188,7 @@ if(!empty($name) && !empty($phone) && !empty($blood)){
 }
 }
 
-
+// this file has to be completed yet!
 
 
 
